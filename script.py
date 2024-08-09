@@ -9,5 +9,3 @@ soup = BeautifulSoup(page.text, 'html', features='lxml')
 
 soup.find(string = '18')
 print(soup)
-
-# test comment for commit
